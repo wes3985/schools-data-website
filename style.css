@@ -1,0 +1,31 @@
+
+/* CSS FRAMEWORK WEBSITE: http://caniuse.com/ */
+/* Set the font for the 'section' part of the page   */
+section {
+  font-family: 'Droid Sans', sans-serif;
+}
+/* Set lists of objects to appear horizontally e.g. search bars etc  */
+li {
+  display: inline;
+  list-style-type: none;
+  padding: 5px;
+}
+/* text area a fixed width of 640 pixels, a thick, shaded border, and some background color */
+article {
+  border-style: solid;
+  border-width: medium;
+  background-color: #CCFFFF;
+  width: 640px;
+}
+
+/* Where to get a background noise colour etc: http://www.cssmatic.com/noise-texture */
+body {
+  background-image:url('texture.png');
+}
+/* How to display the input field */
+input {
+  display: block;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding: 10px 5px;
+}
